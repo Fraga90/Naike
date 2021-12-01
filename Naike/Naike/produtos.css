@@ -1,0 +1,50 @@
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 12px;
+  margin-bottom: 52px;
+}
+
+.produtos li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 2 - 12px);
+  background: #f4f4f4;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.5s;
+}
+
+.produtos li h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.produtos li img {
+  max-width: 360px;
+  width: 100%;
+}
+
+.produtos li p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.produtos li .produto-preco {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+  .produtos li {
+    width: 100%;
+  }
+}

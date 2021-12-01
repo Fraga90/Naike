@@ -1,0 +1,134 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  gap: 42px;
+  padding: 24px 0;
+}
+
+header img {
+  margin-top: 32px;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 18px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+header nav ul a:hover {
+  background: #4395e8;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+/* footer */
+footer {
+  background: #f4f4f4;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+footer h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+footer address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0 0;
+  font-style: normal;
+}
+
+footer address .social {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+footer address .social img {
+  width: 50px;
+  height: 50px;
+}
+
+footer address .contato {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+footer .container p {
+  color: #595959;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 12px;
+}

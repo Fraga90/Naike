@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .imagens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+main .imagens img {
+  width: 100%;
+  max-width: 400px;
+}

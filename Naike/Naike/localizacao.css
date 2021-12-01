@@ -1,0 +1,12 @@
+#google-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+#google-map h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
